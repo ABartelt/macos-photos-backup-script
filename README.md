@@ -1,6 +1,8 @@
 # macOS System Backup Script
-
 A comprehensive backup solution for macOS systems that handles Photos libraries, iCloud Drive, contacts, development projects, and system configurations. The script provides a robust, incremental backup system with progress tracking and error handling.
+## Hardware Requirements & Encryption
+This backup script has been tested and works. I use a [Western Digital My Passport](https://www.amazon.de/-/en/WD-Passport-Portable-Hard-Drive/dp/B07VSPL8FJ/?_encoding=UTF8&pd_rd_w=HAclW&content-id=amzn1.sym.16038c01-cfea-4f09-a119-c9f8c051c46c%3Aamzn1.symc.fc11ad14-99c1-406b-aa77-051d0ba1aade&pf_rd_p=16038c01-cfea-4f09-a119-c9f8c051c46c&pf_rd_r=67WJ82KEWK3DHC0E0R8X&pd_rd_wg=DUkBe&pd_rd_r=b9dc90af-bc28-4953-a558-83cb9f68602a&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d&th=1) which is using hardware encryption. These drives work seamlessly with macOS and provide excellent security through hardware-level encryption without compromising performance. The encryption is handled transparently by macOS once you set up the drive using the WD Security software, making it an ideal choice for secure backups.
+
 
 ## Features
 
@@ -44,7 +46,7 @@ A comprehensive backup solution for macOS systems that handles Photos libraries,
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/macos-backup.git
+   git clone https://github.com/ABartelt/macos-backup.git
    cd macos-backup
    ```
 
